@@ -1,6 +1,7 @@
 import React from 'react'
 import my from "./images/yup.jpg";
 import  "./css/style2.css"
+import Button  from "@material-ui/core/Button"
 function Home() {
     return (
         <div class="section">
@@ -12,7 +13,11 @@ function Home() {
                 <div class="content">
                     <h2 className="pt-4">Admission open 2021</h2> 
                     <div  class="button">
-                        <a href="">Please! Register For Seat Booking</a>
+                    <header>
+                    <Button size="Large" onClick={()=>alert("Please! visit Registration Page!")} variant="contained" color="primary">
+                    Register
+                    </Button>
+                        </header>
                     </div>
                 </div>
                 <div class="social">
