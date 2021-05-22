@@ -1,6 +1,8 @@
 import React from 'react';
 
  import my from "./images/yup.jpg";
+ import Button  from "@material-ui/core/Button"
+import CallOutlinedIcon from '@material-ui/icons/CallOutlined';
 function Contact() {
     return (
         <div class="section contact-page">
@@ -14,7 +16,11 @@ function Contact() {
                     <h2 className="pt-4">Director's Phone No: 8410774355</h2> 
                     <h2>Phone No: 8218074711</h2> 
                     <div  class="button pt-4">
-                        <a href="">Thanks! For Visiting</a>
+                    <Button
+                    endIcon={<CallOutlinedIcon/>}
+                     size="Large" variant="contained" color="primary">
+                    Contact
+                    </Button>
                     </div>
                 </div>
                 <div class="social">

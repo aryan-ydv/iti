@@ -14,7 +14,8 @@ function Home() {
                     <h2 className="pt-4">Admission open 2021</h2> 
                     <div  class="button">
                     <header>
-                    <Button size="Large" onClick={()=>alert("Please! visit Registration Page!")} variant="contained" color="primary">
+                    <Button
+                     size="Large" onClick={()=>alert("Please! visit Registration Page.")} variant="contained" color="primary">
                     Register
                     </Button>
                         </header>

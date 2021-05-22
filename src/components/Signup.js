@@ -1,5 +1,7 @@
 import React from 'react'
 import ModalBox from './ModalBox';
+import Button  from "@material-ui/core/Button"
+import SaveTwoToneIcon from '@material-ui/icons/SaveTwoTone';
 function Signup() {
     return (
         <div class="bg-danger vh-100 vw-100">
@@ -26,7 +28,7 @@ function Signup() {
                 <input class="form-control" type="text" name="amount" />
               </div>
               <div class="form-group">
-                <button  type="button" class="form-control btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Submit</button>
+                <Button  endIcon={<SaveTwoToneIcon/>} type="button" class="form-control btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Submit</Button>
                 
               </div>
             </form>
