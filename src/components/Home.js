@@ -11,7 +11,7 @@ function Home() {
                 </div>
                 <div class="content">
                     <h2 className="pt-4">Admission open 2021</h2> 
-                    <div  class="button pt-4">
+                    <div  class="button">
                         <a href="">Please! Register For Seat Booking</a>
                     </div>
                 </div>

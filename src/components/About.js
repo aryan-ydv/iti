@@ -1,6 +1,8 @@
 import React from 'react'
 import "./css/style.css"
 import yes from "./images/yes.jpg"
+import { Button } from 'react-responsive-button';
+
 function AboutUs() {
     return (
       // <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
@@ -13,7 +15,7 @@ function AboutUs() {
               <div class="content">
                   <h3>JaiRam Singh Pvt Iti Bilram</h3>
                   <p>हम अपने क्षेत्र में ईमानदार प्रशिक्षण संस्थान हैं, इसमें कोई संदेह नहीं है कि छात्र / प्रशिक्षु किसी भी संस्थान को परिपूर्ण बनाते हैं, लेकिन हम पर भरोसा करें और हम आपको निराश नहीं करेंगे और आप हमारे साथ अपने सपनों पर उतरेंगे। स्थापना के बाद से हमारे प्रशिक्षक प्रशिक्षु के साथ बहुत मेहनत कर रहे हैं! हमें विश्वास है कि हम आपको निराश नहीं करेंगे</p> 
-                  <div class="button">
+                  <div class="button mb-2">
                       <a href="">Read More</a>
                   </div>
               </div>

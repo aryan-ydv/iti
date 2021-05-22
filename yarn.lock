@@ -9018,6 +9018,11 @@ react-refresh@^0.8.3:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
 
+react-responsive-button@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/react-responsive-button/-/react-responsive-button-0.2.1.tgz#c92e8a60b1e234655c42a0c8a2d404dc8db2aa0b"
+  integrity sha512-p2/TBeNpLaCOfZjdbKF6MisBxpjhdz/X9O1BUJzjE8bjqm4i8RDZFp3hdAju99lyocH05FQMCQT7Dis/ncmXqA==
+
 react-router-dom@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-5.2.0.tgz#9e65a4d0c45e13289e66c7b17c7e175d0ea15662"
